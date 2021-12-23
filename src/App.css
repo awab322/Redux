@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+
+
 }
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* My css */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  font-family: arial;
+  margin-top: 5vh;
+  padding: 10px 20px 20px 20px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.cash_input
+{
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.add_button{
+
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.add_button:hover {
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+
+.remove_button{
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 2px;
+  /* border: none; */
+  border-style: solid;
+
+}
+.remove_button:hover {
+  color: red;
+  background-color: white;
+  border-color: red;
+}
+
+.cash_data
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 10vh;
+  padding: 20px;
 }
